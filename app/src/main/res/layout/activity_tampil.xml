@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/medium_margin"
+    tools:context=".TampilActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/medium_margin"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/nim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nim"
+            android:textColor="#000000"
+            android:textSize="@dimen/large_text"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small_margin"
+            android:text="@string/nama" />
+
+        <ImageView
+            android:id="@+id/foto_mh"
+            android:layout_width="396dp"
+            android:layout_height="256dp"
+            android:layout_marginTop="@dimen/medium_margin"
+            android:contentDescription="@string/foto"
+            app:srcCompat="@drawable/ic_launcher_foreground" />
+
+        <TextView
+            android:id="@+id/jurusan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/medium_margin"
+            android:text="@string/Jurusan"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/tangall_lahir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/medium_margin"
+            android:text="@string/tangal_lahir"
+            android:textSize="@dimen/medium_text"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/jeniskelamin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small_margin"
+            android:text="@string/jenis_kelamin"
+            android:textSize="@dimen/medium_text" />
+
+        <TextView
+            android:id="@+id/alamat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small_margin"
+            android:text="@string/alamat"
+            android:textSize="@dimen/medium_text" />
+
+        <TextView
+            android:id="@+id/nomor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small_margin"
+            android:text="@string/no_telp"
+            android:textSize="@dimen/medium_text" />
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small_margin"
+            android:text="@string/email"
+            android:textSize="@dimen/medium_text" />
+    </LinearLayout>
+</ScrollView>

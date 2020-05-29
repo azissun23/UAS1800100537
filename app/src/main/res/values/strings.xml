@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">UAS_180010053_7</string>
+    <string name="daftar_mahasiwa_baru">Daftar Mahasiswa Baru</string>
+    <string name="id_mahasiswa">ID Mahasiswa</string>
+    <string name="nim">NIM</string>
+    <string name="nama">Nama</string>
+    <string name="foto">Foto</string>
+    <string name="jenis_kelamin">Jenis Kelamin</string>
+    <string name="Jurusan">Jurusan</string>
+    <string name="tangal_lahir">Tangal_Lahir</string>
+    <string name="alamat">Alamat</string>
+    <string name="no_telp">NO. Telp</string>
+    <string name="email">Email</string>
+    <string name="tambah_mahasiswa">Tambah Mahasiwa</string>
+    <string name="edit">Edit Mahasiswa</string>
+    <string name="hapus">Hapus Mahasiswa</string>
+    <string name="bagikan">Bagikan </string>
+    <string name="titik_dua">:</string>
+    <string name="simpan">Simpan</string>
+    <string name="data_mahasiwa">Data Mahasiswa</string>
+    <string name="pilih_tgl">Pilih</string>
+</resources>
